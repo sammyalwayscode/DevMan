@@ -1,0 +1,48 @@
+.MainHomeDiv {
+  height: 300px;
+  width: 100%;
+  background-image: url("../Images/eightup.png");
+  background-position: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.BgContHolder {
+  width: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  /* flex-direction: column; */
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: chartreuse; */
+}
+
+.CardPart {
+  width: 100%;
+  background-color: #f4f9fa;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.CardPWidthHold {
+  width: 1100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media screen and (max-width: 700px) {
+  .BgContHolder {
+    width: 300px;
+    flex-direction: column;
+  }
+
+  .CardPWidthHold {
+    justify-content: center;
+  }
+}
